@@ -1,0 +1,19 @@
+public class Calculadora {
+  public int sumar(int a, int b){
+    Mensajes mensajes = new Mensajes();
+    mensajes.otroMensaje("Sumando...");
+    if (a > 10){
+      return a + b;
+    }
+    return b + a;
+  }
+  public int restar(int a, int b){
+    return a - b;
+  }
+  public int multiplicar(int a, int b){
+    return a * b;
+  }
+  public double dividir(double a, double b){
+    return a / b;
+  }
+}
